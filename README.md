@@ -1,5 +1,5 @@
 # customer-list-app-frontend
-
+<!-- minor change to readme to test git check-in -->
 ## Project setup
 ```
 npm install
