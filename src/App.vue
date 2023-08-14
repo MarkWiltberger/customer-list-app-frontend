@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <nav>
+    <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+      <router-link to="/create">Create</router-link>
+    </div>
     <router-view/>
   </div>
 </template>
@@ -28,5 +28,10 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.form-wrapper {
+  width: 500px;
+  margin: 0 auto;
 }
 </style>
