@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 // import HomeView from '../views/HomeView.vue'
-import HomeComponent from '@/views/Home';
+import HomeComponent from '@/views/HomeView';
 import EditComponent from '@/components/customer/Edit';
-import CreateComponent from '@/components/customer/Create';
+import CreateComponent from '@/components/customer/CreateView';
 
 Vue.use(VueRouter)
 
