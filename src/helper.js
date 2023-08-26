@@ -1,7 +1,7 @@
 // defining baseURL constant to be declared in multiple components
 
 export const server = {
-  baseURL: 'https://customer-list-app-backend-template-1-iftelzoeoa-uc.a.run.app/customer'
+  baseURL: 'https://customer-list-app-backend-template-1-iftelzoeoa-uc.a.run.app'
 }
 
   // DEV baseURL:   baseURL: 'http://localhost:3000'
