@@ -3,6 +3,9 @@
     <div class="text-center">
       <h1>Nest Customer List App Tutorial</h1>
       <p> Built with Nest.js, Vue.js and MongoDB</p>
+      <p> Adapted by Mark Wiltberger from:</p>
+      <p><a href="https://www.myhsts.org/tutorial-customer-list-management-app-using-nest-mongodb-and-vue.php" target="_blank">Build a Customer List Management App Using Nest.JS, MongoDB and Vue</a></p>
+      <p> By Olususi Kayode Oluyemi</p>
       <div v-if="customers.length === 0">
           <h2> No customer found at the moment </h2>
       </div>
