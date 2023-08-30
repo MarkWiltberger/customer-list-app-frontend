@@ -65,6 +65,7 @@ export default {
       axios
         .delete(`${server.baseURL}/customer/delete?customerID=${id}`)
         .then(data => {
+          // eslint-disable-next-line
           console.log(data);
           window.location.reload();
         });
